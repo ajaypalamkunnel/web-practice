@@ -12,7 +12,38 @@
     <div class="main-body">
         <div class="calculator">
             <div class="display">
-                <input type="text" name="" id="" class="inputdisplay">
+                <input type="text" name="" id="screen" class="inputdisplay">
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <button onclick="clearDisplay()" class="lgrbutton">AC</button>
+                    <button onclick="bclick('+')" class="lgrbutton">+/-</button>
+                    <button onclick="bclick('%')" class="lgrbutton">%</button>
+                    <button onclick="bclick('/')" class="yebutton">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="bclick(7)" id="bt" class="grbutton">7</button>
+                    <button onclick="bclick(8)" class="grbutton">8</button>
+                    <button onclick="bclick(9)" class="grbutton">9</button>
+                    <button onclick="bclick('*')" class="yebutton">X</button>
+                </div>
+                <div class="row">
+                    <button onclick="bclick(4)" class="grbutton">4</button>
+                    <button onclick="bclick(5)" class="grbutton">5</button>
+                    <button onclick="bclick(6)" class="grbutton">6</button>
+                    <button onclick="bclick('-')" class="yebutton">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="bclick(1)" class="grbutton">1</button>
+                    <button onclick="bclick(2)" class="grbutton">2</button>
+                    <button onclick="bclick(3)" class="grbutton">3</button>
+                    <button onclick="bclick('+')" class="yebutton">+</button>
+                </div>
+                <div class="row">
+                    <button onclick="bclick(0)" class="grlongbutton">0</button>
+                    <button onclick="bclick('.')" class="grbutton">.</button>
+                    <button onclick="equalClick()" class="yebutton">=</button>
+                </div>
             </div>
 
         </div>
