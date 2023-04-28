@@ -51,26 +51,21 @@ function acClick(opr) {
     document.getElementById("screen").value = "";
     sign = "/";
   }
-  console.log("hi");
 }
 
 //addition
 function add() {
-  console.log("iam add");
   res = parseInt(oldValue) + parseInt(newValue);
 }
 //substraction
 function sub() {
-  console.log("iam add");
   res = parseInt(oldValue) - parseInt(newValue);
 }
 //multiplication
 function mul() {
-  console.log("iam add");
   res = parseInt(oldValue) * parseInt(newValue);
 }
 //Division
 function div() {
-  console.log("iam add");
   res = parseInt(oldValue) / parseInt(newValue);
 }
